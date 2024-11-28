@@ -1,5 +1,5 @@
 
-def kaupk_daugyba(*args: int | float) -> int | float:
+def kaupk_daugyba(*args)
     if not args:
         return 0
 
@@ -11,16 +11,6 @@ def kaupk_daugyba(*args: int | float) -> int | float:
         kaupiklis *= elem
     return kaupiklis
 
-
-
-def sudaugink_visus_is_pirmo(skaicius, *args):
-    if not args:
-        kaupiklis = [skaicius]
-    else:
-        kaupiklis = []
-    for elem in args:
-        kaupiklis.append(skaicius * elem)
-    return kaupiklis
 
 def kaupk_aritmetika(*args, operacija='suma'):
 
