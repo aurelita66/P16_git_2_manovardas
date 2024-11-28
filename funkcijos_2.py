@@ -1,5 +1,5 @@
 
-def kaupk_daugyba(*args)
+def kaupk_daugyba(*args):
     if not args:
         return 0
 
