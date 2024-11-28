@@ -9,5 +9,3 @@ person = {
     }
 }
 
-print(person["occupation"])
-print(person["occupation"]["workplace"])

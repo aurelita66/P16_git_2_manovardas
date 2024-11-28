@@ -16,16 +16,3 @@ def amortizuok(daikto_verte, metu_skaicius, procentas):
         daikto_verte = daikto_verte - (daikto_verte * procentas / 100)
     return daikto_verte
 
-# užd 6
-# Parašyti funkciją keisk_stringa, kuri priima stringą. Funkcija turi
-# 2 loginius jungiklius - atbulai, didziosiomis.
-# Priklausomai nuo jungiklių grąžina perdirbtą stringą.
-
-
-def keisk_stringa(stringas, atbulai=False, didziosiomis=False):
-
-    if atbulai:
-        stringas = stringas[::-1]
-    if didziosiomis:
-        stringas = stringas.upper()
-    return stringas
